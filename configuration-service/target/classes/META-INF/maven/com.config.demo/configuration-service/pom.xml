@@ -4,11 +4,10 @@
   <artifactId>configuration-service</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <parent>
+   <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.2.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -27,6 +26,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+  			<groupId>com.jcraft</groupId>
+  			<artifactId>jsch</artifactId>
+  			<version>0.1.51</version>
+		</dependency>
+		
 	</dependencies>
 
 	<dependencyManagement>
