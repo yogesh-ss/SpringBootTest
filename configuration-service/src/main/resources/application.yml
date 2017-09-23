@@ -6,8 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/yogesh-ss/SpringBootTest.git     # file:///C:/GitRepository/SpringBootTest
-          #username: 
-          #password: 
-          #timeout: 20
-          #clone-on-start: true
+          uri: https://github.com/yogesh-ss/SpringBootTest.git  file:///C:/GitRepository/SpringBootTest
+          username: yogesh-ss 
+          password: pixon@123
+          timeout: 20
+          clone-on-start: true
